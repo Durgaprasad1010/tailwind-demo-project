@@ -28,6 +28,7 @@ function NavBar() {
             <div onClick={handleNav} className="block md:hidden">
                 {nav ? (<AiOutlineClose size={20} className="cursor-pointer" />) : (<AiOutlineMenu size={20} className="cursor-pointer" />)}
             </div>
+
             <div
                 className={nav ? 'fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] '}>
                 <ul className='uppercase p-4'>
