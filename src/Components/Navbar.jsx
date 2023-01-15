@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-function Navbar() {
+function NavBar() {
     const [nav, setNav] = useState(false);
 
     const handleNav = () => {
@@ -44,4 +44,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default NavBar
